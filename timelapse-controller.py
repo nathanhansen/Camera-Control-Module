@@ -24,7 +24,7 @@ def capture():
 camera.start_preview(fullscreen=False, window = (0, 0, 1280, 720))
 
 try:
-    timer=int(input("How long in minutes should the timelapse run for?"))
+    timer=int(input("How many photos should the time-lapse capture?"))
     delay=int(input("How many seconds between shots?"))
 
     while True:
