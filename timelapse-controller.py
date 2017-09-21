@@ -43,7 +43,7 @@ try:
         sleep(0.1)
         button.when_held=capture
 
-#let's the user exit by entering CTRL+C
+#Lets the user exit by entering CTRL+C
 except KeyboardInterrupt:
     camera.stop_preview()
 
